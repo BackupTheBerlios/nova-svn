@@ -56,8 +56,13 @@ escapeinside={/@}{@/},language=CSharp,frame=leftline,
 % GLOB:ComServ - Component Servers
 % GLOB:Protocols - Transport Protocols
 % GLOB:Naming - Component Naming
+% GLOB:Security:Msg - Message Security
+% GLOB:ControlMsg - Control Messages
+% SEC:SEC:XSec:ImplSets:SndAuth - Sender Authentication Set
+% SEC:SEC:XSec:ImplSets:MsgEncr - Message Encryption Set
+% SEC:SEC:XSec:Negotiation - XSec Negotiation
 
-%TODO: Finish Introduction
+
 \section{Introduction}
 \label{SEC:Intro}
 
@@ -93,7 +98,6 @@ public void SampleMethod()
 The word ``component'' has many meanings in software development. It can be an abstract concept of a single encapsulated entity that performs a certain task. Or it can be a more concrete concept such as the idea of a COM Component (see Section \ref{GLOB:COM}, ``Nova vs. The Component Object Model). Nova is an implementation of the eXtensible Application Development System (XADS, pronounced `zads') which provides a specification for ``Component-Oriented Development.'' COD is a further development of the concepts provided by Object-Oriented Programming (OOP) in that a component, as defined by the concepts of COD, makes use of multiple objects in its implementation. However, a component is very different from an object, and Table \ref{TAB:CvO} summarizes these differences.
 
 \begin{table}
-\label{TAB:CvO}
 \begin{tblcont}{| l | l |}{\textbf{Component} & \textbf{Object}}
 Contains multiple objects & Is one object\\
 \hline
@@ -103,7 +107,7 @@ Designed for portability & Tied to an application\\
 \hline
 Designed for transparent remoting & Remoting is implemented by other systems\\
 \end{tblcont}
-\caption{Differences between Components and Objects}
+\caption{\label{TAB:CvO} Differences between Components and Objects}
 \end{table}
 
 
@@ -130,6 +134,38 @@ One of the primary goals of Nova is to facilitate communication between componen
 
 \subsubsection{Message Structure}
 \label{SEC:ARCH:Messaging;Structure}
-Nova uses messaging to allow components to request that other components perform actions or send them data. This process is very similar to the way object-oriented messaging works in that an OO message consists of an action to be performed (method name) and data to aid in the performing of that action (parameters). These two attributes (action and parameters), along with the component name (see Section \ref{GLOB:Naming}, ``Component Naming'') of the sender and the reciever, make up the main data contained in the message (other information is discussed in later sections). In Nova, the arguments to a message are .Net \lstinline!object! instances which are serialized by various transport protocols as defined in Section \ref{GLOB:Serialization}, ``Message Serialization.''
+Nova uses messaging to allow components to request that other components perform actions or send them data. This process is very similar to the way object-oriented messaging works in that an OO message consists of an action to be performed (method name) and data to aid in the performing of that action (parameters). These two attributes (action and parameters), along with the component name (see Section \ref{GLOB:Naming}, ``Component Naming'') of the sender and the reciever, make up the main data contained in the message (other information is discussed in later sections). In Nova, the arguments to a message are .Net \lstinline!object! instances which are serialized by various transport protocols as defined in Section \ref{GLOB:Serialization}, ``Message Serialization.'' Messages also contain some security information which is detailed in Section \ref{GLOB:Security:Msg}, ``Message Security.'
+
+\section*{[TODO: Complete sections between above section and below section]}
+
+\section{Security}
+\label{SEC:SEC}
+\label{GLOB:Security}
+Security is extremely important in any messaging system. Cryptography has always been an integral part of all communications well before the advent of the digital computer and Internet. Nova, and XADS, do not ignore this important component and provide an extensible security system that runs on top of the standard XADS messaging system.
+
+\subsection{XADS Security System}
+\label:{SEC:SEC:XSec}
+The name of the security specification used in XADS is the XADS Security system, or XSec (named similarly to IPSec, the Internet Protocol Security system). XSec is implemented as a set of control messages (see Section \ref{GLOB:ControlMsg}, ``Control Messages'') beginning with the prefix ``\lstinline!_XSec!.'' XADS implementors MUST implement one (or more, in some cases) of the three ``implementation sets,'' shown in Table \ref{TAB:XSec:ImplSets}. This table lists the three sets as well as the section that describes them.
+
+\begin{table}
+\begin{tblcont}{| c | c |}{\textbf{Set} & \textbf{Section}}
+Insecure & \ref{SEC:SEC:XSec:ImplSets:Insec}, ``Insecure Set''\\
+Sender Authentication & \ref{SEC:SEC:XSec:ImplSets:SndAuth}, ``Sender Authentication Set''\\
+Message Encryption & \ref{SEC:SEC:XSec:ImplSets:MsgEncr}, ``Message Encryption Set''\\
+\end{tblcont}
+\caption{\label{TAB:XSec:ImplSets} Implementation Sets for XSec}
+\end{table}
+
+\subsubsection{Implementation Sets}
+\label{SEC:SEC:XSec:ImplSets}
+The next three sections detail the three implementation sets
+
+\subsubsection{Insecure Set}
+\label{SEC:SEC:XSec:ImplSets:Insec}
+Implementors of the insecure set must provide support for recieving only one XSec message, ``\lstinline!_XSec_Negotiate!,'' which is the message used to begin an XSec Negotiation (see Section \ref{SEC:SEC:XSec:Negotiation}, ``XSec Negotiation''). Implementors of the insecure set must also provide support for sending one message, ``\lstinline!_XSec_Insecure!,'' which is the message used to notify clients that the sever does not support XSec security. Insecure set implementors need only provide support for insecure messaging (unless, of course, they implement one of the other sets), and when they are asked to begin an XSec negotiation, they can respond with the \lstinline!_XSec_Insecure! message. In fact, ONLY implementors of the insecure set can respond with this statement, those who do not implement this set cannot provide insecure messaging (Note that if you wish to provide both secure and insecure messaging you must implement the insecure set AND one or both of the other sets). Of course, if an implementor of the insecure set also implements one of the other sets they need not respond to a negotiation request with the \lstinline!_XSec_Insecure! message but can negotiate secure messaging.
+
+\subsubsection{Sender Authentication Set}
+\label{SEC:SEC:XSec:ImplSets:SndAuth}
+Sender authentication is the process of verifying that the reported sender of a message is indeed the true sender. 
 
 \end{document}
