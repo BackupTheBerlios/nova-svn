@@ -1,0 +1,5 @@
+Unless otherwise specified, all documents in this project (Nova) are Copyright 2005 OpenArrow Software. OpenArrow Software grants you a license to copy, use, modify, and distribute the contents of this project under the terms of the Common Public License version 1.0. See Documents/License.txt for the text of this license, or view http://www.opensource.org/licenses/cpl1.0.php. If you have any concerns regarding the licensing of this project, please contact openarrow@gmail.com
+
+This project requires the .Net Framework version 2.0 Beta 2 to compile.
+
+Please report Bugs and Feature requests at the project page for this project on BerliOS Developer at http://developer.berlios.de/projects/nova
