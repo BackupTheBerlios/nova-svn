@@ -1,0 +1,212 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2005.1.20)  11 FEB 2005 10:35
+\write18 enabled.
+**Overview.tex
+(./Overview.tex{/sw/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/sw/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/sw/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/Users/andrew/Library/texmf/tex/latex/listings.sty
+(/sw/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count87
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count88
+\lst@currlwidth=\dimen103
+\lst@column=\count89
+\lst@pos=\count90
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count91
+\lst@lineno=\count92
+\c@lstlisting=\count93
+\lst@maxwidth=\dimen106
+
+(/Users/andrew/Library/texmf/tex/latex/lstpatch.sty
+File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
+)
+(/Users/andrew/Library/texmf/tex/latex/lstmisc.sty
+File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+(/Users/andrew/Library/texmf/tex/latex/listings.cfg
+File: listings.cfg 2004/09/05 1.3 listings configuration
+))
+Package: listings 2004/10/17 1.3b (Carsten Heinz)
+
+(/sw/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/sw/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2001/08/31 v1.1 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+
+(/sw/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count96
+))
+(/Users/andrew/Library/texmf/tex/latex/lstlang0.sty) (./Overview.aux)
+\openout1 = `Overview.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+
+(/sw/share/texmf/tex/context/base/supp-pdf.tex
+(/sw/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count97
+\scratchcounter=\count98
+\scratchtoks=\toks16
+\scratchdimen=\dimen107
+\scratchskip=\skip43
+\scratchmuskip=\muskip10
+\scratchbox=\box28
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen108
+\minusone=\count99
+\thousandpoint=\dimen109
+\emptytoks=\toks17
+\nextbox=\box29
+\nextdepth=\dimen110
+\everyline=\toks18
+\!!counta=\count100
+\!!countb=\count101
+\recursecounter=\count102
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPtoPDFconversion=\toks19
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 39.
+
+
+LaTeX Warning: Reference `NEVER' on page 1 undefined on input line 62.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 64.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 76.
+
+LaTeX Warning: Reference `GLOB:COM' on page 1 undefined on input line 88.
+
+[1
+
+{/sw/share/texmf/dvips/config/pdftex.map}]
+Overfull \hbox (62.80115pt too wide) in paragraph at lines 92--100
+ [] 
+ []
+
+
+LaTeX Warning: Reference `GLOB:AppStart' on page 2 undefined on input line 107.
+
+
+[2]
+
+LaTeX Warning: Reference `GLOB:Contracts' on page 3 undefined on input line 113
+.
+
+
+LaTeX Warning: Reference `GLOB:Disco' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Reference `GLOB:Remoting' on page 3 undefined on input line 115.
+
+
+
+LaTeX Warning: Reference `GLOB:ComServ' on page 3 undefined on input line 115.
+
+[3]
+
+LaTeX Warning: Reference `SEC:ARCH:Messaging:Structure' on page 4 undefined on 
+input line 124.
+
+
+LaTeX Warning: Reference `SEC:ARCH:Messaging:Routing' on page 4 undefined on in
+put line 124.
+
+
+LaTeX Warning: Reference `GLOB:AppDomains' on page 4 undefined on input line 12
+4.
+
+
+LaTeX Warning: Reference `SEC:ARCH:Messaging:Serialization' on page 4 undefined
+ on input line 124.
+
+
+LaTeX Warning: Reference `GLOB:Protocols' on page 4 undefined on input line 124
+.
+
+
+LaTeX Warning: Reference `GLOB:Naming' on page 4 undefined on input line 128.
+
+
+LaTeX Warning: Reference `GLOB:Serialization' on page 4 undefined on input line
+ 128.
+
+[4] (./Overview.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2103 strings out of 95437
+ 28310 string characters out of 1190295
+ 80016 words of memory out of 1000001
+ 5137 multiletter control sequences out of 10000+50000
+ 9791 words of font info for 35 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 26i,8n,42p,1127b,1196s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 31 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 0 words of extra memory for PDF output out of 65536
+{/sw/share/texmf/dvips/tetex/74afc74c.enc}</sw/share/texmf/fonts/type1/bluesk
+y/cm/cmti10.pfb>{/sw/share/texmf/dvips/tetex/09fbbfac.enc}</sw/share/texmf/font
+s/type1/bluesky/cm/cmtt10.pfb>{/sw/share/texmf/dvips/tetex/f7b6d320.enc}</sw/sh
+are/texmf/fonts/type1/bluesky/cm/cmr8.pfb></sw/share/texmf/fonts/type1/bluesky/
+cm/cmbx12.pfb></sw/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></sw/share/texm
+f/fonts/type1/bluesky/cm/cmr17.pfb>
+Output written on Overview.pdf (4 pages, 56876 bytes).
