@@ -61,7 +61,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="ServerConfiguration.cs" />
-    <Compile Include="Settings_user.cs" />
     <Compile Include="SystemNovaServer.cs" />
     <AppDesigner Include="Properties\" />
   </ItemGroup>
@@ -76,6 +75,9 @@
       <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
       <Name>Nova.Server</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ComSvc.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
 </Project>

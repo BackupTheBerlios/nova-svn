@@ -63,5 +63,8 @@
     <Compile Include="RemoteComponent.cs" />
     <AppDesigner Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Framework.cd" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
 </Project>

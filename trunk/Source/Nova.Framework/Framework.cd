@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" MajorVersion="1" MinorVersion="1" xmlns="http://www.microsoft.com/VisualStudio/EnterpriseTools/ClassDesigner/V1.1/DiagramSchema.xsd">
+  <View FilterFieldProperty="false" LastOpened="true" Name="Main">
+    <AbsoluteBounds X="0" Y="0" Height="8.5" Width="11" />
+    <Font Name="Tahoma" Size="0.1145833358168602" />
+    <Class Collapsed="false">
+      <AbsoluteBounds X="4.5" Y="0.5" Height="2.701698611080646" Width="1.5" />
+      <ShowAsAssociation>
+        <Property Name="Type" />
+        <Property Name="Priority" />
+      </ShowAsAssociation>
+      <TypeIdentifier>
+        <FullName>Nova.Framework.Message</FullName>
+        <FileName>Message.cs</FileName>
+        <HashCode>AAgABAAAAAQAAABEIEAAQCAAAAAhQAAEIQAAAAAIAAQ=</HashCode>
+      </TypeIdentifier>
+      <HiddenMembers>
+        <Member xsi:type="FieldProxy" Name="arguments" />
+        <Member xsi:type="FieldProxy" Name="priority" />
+        <Member xsi:type="FieldProxy" Name="refid" />
+        <Member xsi:type="FieldProxy" Name="sender" />
+        <Member xsi:type="FieldProxy" Name="sent" />
+        <Member xsi:type="FieldProxy" Name="target" />
+        <Member xsi:type="FieldProxy" Name="ttl" />
+        <Member xsi:type="FieldProxy" Name="type" />
+      </HiddenMembers>
+    </Class>
+    <Class NewMemberLocation="ComponentInfo.cs" Collapsed="false">
+      <AbsoluteBounds X="7" Y="3.25" Height="2.3175734483202284" Width="1.5" />
+      <TypeIdentifier>
+        <FullName>Nova.Framework.ComponentInfo</FullName>
+        <FileName>ComponentInfo.cs</FileName>
+        <HashCode>IAEAACABAAAggAAAoIAAAIQAAAAEAAAAAAAABAAAAAQ=</HashCode>
+      </TypeIdentifier>
+      <HiddenMembers>
+        <Member xsi:type="FieldProxy" Name="author" />
+        <Member xsi:type="FieldProxy" Name="company" />
+        <Member xsi:type="FieldProxy" Name="copyright" />
+        <Member xsi:type="FieldProxy" Name="description" />
+        <Member xsi:type="FieldProxy" Name="name" />
+        <Member xsi:type="FieldProxy" Name="version" />
+        <Member xsi:type="FieldProxy" Name="website" />
+      </HiddenMembers>
+    </Class>
+    <Interface NewMemberLocation="IComponentServer.cs" Collapsed="false">
+      <AbsoluteBounds X="0.5" Y="0.5" Height="2.3175734483202297" Width="1.75" />
+      <TypeIdentifier>
+        <FullName>Nova.Framework.IComponentServer</FullName>
+        <FileName>IComponentServer.cs</FileName>
+        <HashCode>AgAAAAAAAAAAAIAAACAAIAAAAAAAAiAAAACAAAAEAAA=</HashCode>
+      </TypeIdentifier>
+    </Interface>
+    <Interface NewMemberLocation="IComponent.cs" Collapsed="false">
+      <AbsoluteBounds X="0.5" Y="3.5" Height="1.6509067816535623" Width="1.75" />
+      <ShowAsAssociation>
+        <Property Name="Status" />
+        <Property Name="Info" />
+      </ShowAsAssociation>
+      <TypeIdentifier>
+        <FullName>Nova.Framework.IComponent</FullName>
+        <FileName>IComponent.cs</FileName>
+        <HashCode>AAgAAAAEAAAAAQAAIAAAAAQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      </TypeIdentifier>
+      <AssociationLine ManuallyRouted="true" TargetShapeName="Nova.Framework.ComponentStatusEnum" VariableName="Status">
+        <Path>
+          <Point X="2.25" Y="4.725" />
+          <Point X="4.5" Y="4.725" />
+        </Path>
+      </AssociationLine>
+    </Interface>
+    <Interface NewMemberLocation="IContract.cs" Collapsed="false">
+      <AbsoluteBounds X="2.5" Y="2.25" Height="1.3175734483202297" Width="1.75" />
+      <TypeIdentifier>
+        <FullName>Nova.Framework.IContract</FullName>
+        <FileName>IContract.cs</FileName>
+        <HashCode>AAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      </TypeIdentifier>
+    </Interface>
+    <Interface NewMemberLocation="IProtocol.cs" Collapsed="false">
+      <AbsoluteBounds X="2.5" Y="0.5" Height="1.4842401149868965" Width="1.75" />
+      <TypeIdentifier>
+        <FullName>Nova.Framework.IProtocol</FullName>
+        <FileName>IProtocol.cs</FileName>
+        <HashCode>AAAAAAAAEAAAAAAAAEAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      </TypeIdentifier>
+    </Interface>
+    <Enum Collapsed="true">
+      <AbsoluteBounds X="7" Y="0.5" Height="0.45" Width="1.75" />
+      <TypeIdentifier>
+        <FullName>Nova.Framework.MessagePriorityEnum</FullName>
+        <FileName>MessagePriorityEnum.cs</FileName>
+        <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgIAAAAAAAAAAAAAAA=</HashCode>
+      </TypeIdentifier>
+    </Enum>
+    <Enum Collapsed="true">
+      <AbsoluteBounds X="7" Y="1.5" Height="0.45" Width="1.75" />
+      <TypeIdentifier>
+        <FullName>Nova.Framework.MessageTypeEnum</FullName>
+        <FileName>MessageTypeEnum.cs</FileName>
+        <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAAABA=</HashCode>
+      </TypeIdentifier>
+    </Enum>
+    <Enum NewMemberLocation="ComponentStatusEnum.cs" Collapsed="true">
+      <AbsoluteBounds X="4.5" Y="4.5" Height="0.45" Width="1.75" />
+      <TypeIdentifier>
+        <FullName>Nova.Framework.ComponentStatusEnum</FullName>
+        <FileName>ComponentStatusEnum.cs</FileName>
+        <HashCode>AAAAAAACAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      </TypeIdentifier>
+    </Enum>
+  </View>
+</Diagram>

@@ -51,5 +51,6 @@ namespace OpenArrow.ComponentServices
 		private int dthreads;
 		private int rthreads;
 		private List<IContract> contracts;
+
 	}
 }

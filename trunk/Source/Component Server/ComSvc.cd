@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diagram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" MajorVersion="1" MinorVersion="1" xmlns="http://www.microsoft.com/VisualStudio/EnterpriseTools/ClassDesigner/V1.1/DiagramSchema.xsd">
+  <View FilterFieldProperty="false" LastOpened="true" Name="Main">
+    <AbsoluteBounds X="0" Y="0" Height="8.5" Width="11" />
+    <Font Name="Tahoma" Size="0.1145833358168602" />
+    <Class NewMemberLocation="SystemNovaServer.cs" Collapsed="false">
+      <AbsoluteBounds X="0.5" Y="0.5" Height="4.8683652777473121" Width="1.75" />
+      <TypeIdentifier>
+        <FullName>OpenArrow.ComponentServices.SystemNovaServer</FullName>
+        <FileName>SystemNovaServer.cs</FileName>
+        <HashCode>ggAAAEAABAACgIQAACAALA5EIAAExqABBACAEQIEoAA=</HashCode>
+      </TypeIdentifier>
+      <HiddenMembers>
+        <Member xsi:type="MethodProxy" Name="AddDispatcher" />
+        <Member xsi:type="MethodProxy" Name="AddReciever" />
+        <Member xsi:type="FieldProxy" Name="dispatchers" />
+        <Member xsi:type="FieldProxy" Name="dispStopTimeout" />
+        <Member xsi:type="MethodProxy" Name="GetDThreadCount" />
+        <Member xsi:type="MethodProxy" Name="GetRThreadCount" />
+        <Member xsi:type="FieldProxy" Name="log" />
+        <Member xsi:type="FieldProxy" Name="manager" />
+        <Member xsi:type="FieldProxy" Name="messages" />
+        <Member xsi:type="FieldProxy" Name="name" />
+        <Member xsi:type="FieldProxy" Name="protocols" />
+        <Member xsi:type="FieldProxy" Name="recievers" />
+        <Member xsi:type="FieldProxy" Name="recvStopTimeout" />
+        <Member xsi:type="FieldProxy" Name="remoteComponents" />
+        <Member xsi:type="MethodProxy" Name="RemoveDispatcher" />
+        <Member xsi:type="MethodProxy" Name="RemoveReciever" />
+      </HiddenMembers>
+      <LollipopPosition Position="0.19999999999999996" />
+    </Class>
+    <Class Collapsed="false">
+      <AbsoluteBounds X="4" Y="1" Height="1.9842401149868967" Width="1.5" />
+      <TypeIdentifier>
+        <FullName>OpenArrow.ComponentServices.ServerConfiguration</FullName>
+        <FileName>ServerConfiguration.cs</FileName>
+        <HashCode>AAAAgAAAAAQAAAAAAAAAAAAAAAAUAAAAAAAAAAAACAA=</HashCode>
+      </TypeIdentifier>
+    </Class>
+  </View>
+</Diagram>
