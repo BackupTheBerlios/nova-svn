@@ -25,7 +25,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net, Version=1.2.0.30714, Culture=neutral, PublicKeyToken=b32731d11ce58905">
-      <HintPath>..\..\..\Sources\Code\log4net-1.2.0-beta8\bin\net\1.1\release\log4net.dll</HintPath>
+      <HintPath>bin\Debug\log4net.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System" />
@@ -60,9 +60,6 @@
     </Compile>
     <Compile Include="RecieveThread.cs" />
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Server.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nova.Framework\Nova.Framework.csproj">

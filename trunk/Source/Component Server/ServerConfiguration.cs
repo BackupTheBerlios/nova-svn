@@ -44,6 +44,7 @@ namespace OpenArrow.ComponentServices
 		/// <returns>A ServerConfiguration instance representing the configuration in the file</returns>
 		public static ServerConfiguration Load(string serverConfFile)
 		{
+			throw new NotImplementedException("This method is not yet implemented"); // TODO: Implement
 		}
 
 		private string name;

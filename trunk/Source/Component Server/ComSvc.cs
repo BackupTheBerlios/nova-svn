@@ -53,8 +53,8 @@ namespace OpenArrow.ComponentServices
 					String.Format("Nova\\Servers\\{0}\\serverconf.xml", args[0])
 				);
 			}
-			if (!File.Exists(serverconfPath))
-				sc = CreateDefaultSC();
+			if (!File.Exists(serverconfPath)) ;
+			//sc = CreateDefaultSC(); // TODO: Add code to create default ServerConfiguration
 			else
 				sc = ServerConfiguration.Load(serverconfPath);
 		}

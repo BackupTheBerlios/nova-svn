@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.Framework", "Nova.Fram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.Server", "Nova.Server\Nova.Server.csproj", "{7001DBD5-F798-4AAE-91D1-074A9B1C8539}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00CB4A1F-2508-4B8F-8793-FFF4EC7C21D3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Component Server", "Component Server\Component Server.csproj", "{C6267D04-D6CF-4469-883E-1CBD9FC5C299}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{925E2DBB-B501-4BA5-B405-E47B1959C5AF}"
